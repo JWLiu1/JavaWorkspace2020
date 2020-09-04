@@ -21,6 +21,8 @@ public class Demo01StringBuilder {
         sBuilder1.append("🀄️国");
         sBuilder1.append(123).append(456);
         System.out.println(sBuilder1);
+        String aString=sBuilder1.toString();
+        System.out.println("aString,将StringBuilder对象通过toString()方法转换为String: "+aString);
 
     }
 }
