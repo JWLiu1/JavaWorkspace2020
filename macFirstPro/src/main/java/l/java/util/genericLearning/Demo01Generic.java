@@ -23,6 +23,7 @@ public class Demo01Generic {
         ArrayList<String> arrayList=new ArrayList<>();
         arrayList.add("Tony");
         arrayList.add(String.valueOf(123)); //如果直接123会报错
+        arrayList.add(Integer.toString(45678));   //将int转换为String的另外一种方法
 
         Iterator<String> iterator=arrayList.iterator();
         while (iterator.hasNext()){
@@ -31,7 +32,7 @@ public class Demo01Generic {
         }
     }
 
-    private static void show01() {  //不使用泛型，可能会抛出类型转换异常
+    private static void show01() {  //不使用泛型，可能会抛出类型转换异常，使用具体类对象的方法的时候。
         ArrayList arrayList=new ArrayList();
         arrayList.add("Jack");
         arrayList.add(123);

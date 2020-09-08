@@ -17,7 +17,7 @@ public class Demo03Integer {
     public static void main(String[] args) {
         //基本数据类型->字符串
         String aString=23+"";
-        aString=aString+200;
+        aString=aString+200;    //字符串+int，将int也转换为字符串
         System.out.println(aString);
         String aString1=Integer.toString(90);   //利用Integer类的静态方法toString(参数);
         String aString2=String.valueOf(80); //利用String类的静态方法valueOf(参数)；

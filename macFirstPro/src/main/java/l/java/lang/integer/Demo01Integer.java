@@ -17,8 +17,8 @@ package l.java.lang.integer;
 public class Demo01Integer {
     public static void main(String[] args) {
 //        装箱
-        Integer a1=Integer.valueOf("1");
-        Integer a2=Integer.valueOf(1);
+        Integer a1=Integer.valueOf("1");    //String类型装箱，静态方法，直接类名.方法名（参数），调用方法。
+        Integer a2=Integer.valueOf(1);  //int类型的装箱
         System.out.println(a1+"\t"+a2);
 //        拆箱
         int aaa=a1.intValue();
