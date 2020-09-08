@@ -1,4 +1,4 @@
-package l.java.lang.Integer;
+package l.java.lang.integer;
 /*
 基本类型与字符串类型之间的相互转换
 基本类型一>字符串（String）

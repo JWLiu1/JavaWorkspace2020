@@ -1,4 +1,4 @@
-package l.java.lang.StringBuilder;
+package l.java.lang.stringBuilder;
 /*
 StringBuilder和String可以相互转换
 String转为StringBuilder，利用构造函数

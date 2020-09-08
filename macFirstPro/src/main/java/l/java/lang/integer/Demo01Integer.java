@@ -1,4 +1,4 @@
-package l.java.lang.Integer;
+package l.java.lang.integer;
 /*
 装箱：把基本数据类型的数据，包装到包装类中（基本数据类型的数据->包装类）
     构造方法：(均过时了)

@@ -1,4 +1,4 @@
-package l.java.lang.System;
+package l.java.lang.system;
 
 import java.util.Arrays;
 

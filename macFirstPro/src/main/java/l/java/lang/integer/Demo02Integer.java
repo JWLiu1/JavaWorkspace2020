@@ -1,4 +1,4 @@
-package l.java.lang.Integer;
+package l.java.lang.integer;
 
 import java.util.ArrayList;
 

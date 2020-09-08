@@ -1,4 +1,4 @@
-package l.java.lang.StringBuilder;
+package l.java.lang.stringBuilder;
 /*
 构造方法：
 StringBuiler() 构造一个不带任何字符的字符串生成器，其初始容量为16个字符
